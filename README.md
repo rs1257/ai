@@ -64,7 +64,7 @@ Stamp Duty is applied progressively across tax bands:
 
 ---
 
-## Assessment Considerations
+### Key Considerations
 
 During the exercise:
 
@@ -95,7 +95,8 @@ The assistant should:
 
 ### Key Consideration
 
-The calculator should be treated as the **authoritative source** for all tax calculations.
+- The calculator should be treated as the **authoritative source** for all tax calculations.
+- You will **not** run the prompt, we are interesting in the thought behind developing the prompt rather than the actual result.
 
 ---
 
@@ -112,7 +113,11 @@ Design a scalable, production-ready platform that helps users:
 - Ask natural language questions about Stamp Duty.
 - Receive answers based on trusted government guidance.
 
-### Solution Requirements
+As an output we expect an end-to-end architecture diagram produced with [**Draw.io**](https://app.diagrams.net/) that illustrates the complete solution.
+
+You may use **Google Gemini AI** in your browser to assist with research, ideation, and architecture design however, the final architecture diagram should be your own work.
+
+### Requirements
 
 The platform must incorporate:
 
@@ -120,11 +125,9 @@ The platform must incorporate:
 - A **Retrieval-Augmented Generation (RAG)** solution for guidance and question answering.
 - **Official government documentation** as the primary and authoritative source of truth.
 
-### Objective
+### Key Considerations
 
-Create an end-to-end architecture diagram using **Draw.io** that illustrates the complete solution.
-
-Examples may include:
+Examples may include but not limited to the following:
 
 - User interface
 - API layer
@@ -133,5 +136,3 @@ Examples may include:
 - RAG components
 - Data stores
 - Monitoring and observability
-
-You may use **Google Gemini AI** in your browser to assist with research, ideation, and architecture design however, the final architecture diagram should be your own work.
