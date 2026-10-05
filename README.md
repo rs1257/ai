@@ -26,15 +26,15 @@ The solution should:
 
 ---
 
-## Stamp Duty Rules
+### Requirements
+
+The calculator should using the following rules to calculate stamp duty:
 
 | Property Value Range | Tax Rate |
 | -------------------- | -------- |
 | £0 – £125,000        | 0%       |
 | £125,001 – £725,000  | 5%       |
 | £725,001+            | 15%      |
-
-### Calculation Method
 
 Stamp Duty is applied progressively across tax bands:
 
@@ -44,17 +44,15 @@ Stamp Duty is applied progressively across tax bands:
 
 ---
 
-## Worked Example
+### Worked Example
 
-### Property Value: £1,000,000
+The following shows an example for a property of value **£1,000,000**
 
 | Tax Band         | Taxable Amount | Rate | Tax Due |
 | ---------------- | -------------- | ---- | ------- |
 | First £125,000   | £125,000       | 0%   | £0      |
 | Next £600,000    | £600,000       | 5%   | £30,000 |
 | Remaining Amount | £275,000       | 15%  | £41,250 |
-
-### Total Stamp Duty
 
 ```text
 £0 + £30,000 + £41,250 = £71,250
@@ -83,6 +81,8 @@ During the exercise:
 
 Create a prompt for an AI assistant that helps users understand Stamp Duty regulations and calculations.
 
+---
+
 ### Requirements
 
 The assistant should:
@@ -93,7 +93,9 @@ The assistant should:
 - Use the **Stamp Duty Calculator** from Part 1 as a trusted calculation tool.
 - Invoke the calculator whenever a calculation is required instead of performing calculations independently.
 
-### Key Consideration
+---
+
+### Key Considerations
 
 - The calculator should be treated as the **authoritative source** for all tax calculations.
 - You will **not** run the prompt, we are interesting in the thought behind developing the prompt rather than the actual result.
@@ -117,6 +119,8 @@ As an output we expect an end-to-end architecture diagram produced with [**Draw.
 
 You may use **Google Gemini AI** in your browser to assist with research, ideation, and architecture design however, the final architecture diagram should be your own work.
 
+---
+
 ### Requirements
 
 The platform must incorporate:
@@ -124,6 +128,8 @@ The platform must incorporate:
 - The **Stamp Duty Calculator** from Part 1 for all calculations.
 - A **Retrieval-Augmented Generation (RAG)** solution for guidance and question answering.
 - **Official government documentation** as the primary and authoritative source of truth.
+
+---
 
 ### Key Considerations
 
@@ -136,3 +142,5 @@ Examples may include but not limited to the following:
 - RAG components
 - Data stores
 - Monitoring and observability
+
+---
