@@ -79,7 +79,8 @@ During the exercise:
 
 ### Objective
 
-Create a prompt for an AI assistant that helps users understand Stamp Duty regulations and calculations.
+- Create a system prompt for an AI assistant that helps users understand Stamp Duty regulations and calculations.
+- Provide 3 example user prompts and the expected output.
 
 ---
 
