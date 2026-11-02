@@ -56,7 +56,7 @@ Assess each criterion using demonstrated evidence. Use the same qualitative judg
 | RAG and trusted content            | Shows ingestion and retrieval of official government documentation, with provenance/citations, freshness, and a clear source-of-truth strategy. |                    |
 | Answer quality and guardrails      | Grounds responses in retrieved material, handles low-confidence or missing evidence, and separates guidance answers from calculator results.    |                    |
 | Security, privacy, and reliability | Addresses appropriate access controls, data minimization, secrets, resilience, scaling, and relevant monitoring or alerting.                    |                    |
-| Diagram clarity and trade-offs     | Produces a readable end-to-end Draw.io diagram, explains key choices and bottlenecks, and identifies risks or production considerations.        |                    |
+| Diagram clarity and trade-offs     | Produces a readable end-to-end Excalidraw diagram, explains key choices and bottlenecks, and identifies risks or production considerations.      |                    |
 
 **Suggested follow-up:** How would you keep retrieved guidance current and prove which source supported an answer?
 

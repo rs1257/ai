@@ -3,11 +3,11 @@
 ## Part 1: Technical Test - Stamp Duty Calculator
 
 - Talk me through your approach before you start coding. What assumptions are you making?
-- How does your implementation apply the tax bands progressively?
-- Which values would you test at the £125,000 and £725,000 boundaries, and what should each return?
-- How should the calculator behave for zero, a negative price, or a value that is not a number?
 - How did you decide what to test? What defect might your tests still miss?
-- What would you change to productionize this PoC, and how would you keep the tax rules correct as they change?
+- What would you change to productionise this PoC, and how would you keep the tax rules correct as they change?
+- How could this be implemented as a microservice for an AI Agent?
+- How could the solution be improved further given more time?
+- How would you adapt your solution if there are additional cases such as buying a second home?
 
 ## Part 2: AI Task - Guidance Assistant Prompt
 
@@ -17,6 +17,8 @@
 - How should it respond if a user asks about a rule that is not covered by the supplied guidance?
 - How would you test and refine the prompt? Which test cases would you include?
 - How would you test that user-provided instructions cannot override the assistant's role or tool-use requirements?
+- Why might an LLM fail to answer a question correctly?
+- How does an agent decide on what tools to use given a prompt?
 
 ## Part 3: System Design - Guidance Platform
 
@@ -26,6 +28,9 @@
 - What should happen when retrieval finds no reliable answer, or when the calculator or an upstream service is unavailable?
 - How would you protect user data and credentials, and monitor the platform in production?
 - What trade-offs did you make in your design, and what would you change first as usage grows?
+- How would you make the solution scale?
+- How would tool calling be implemented? And for what purposes?
+- How does RAG work, and why do we get a specific selection of documents used as an input to the LLM
 
 ## Cross-Part Follow-Ups
 
