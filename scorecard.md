@@ -49,6 +49,8 @@ Assess each criterion using demonstrated evidence. Use the same qualitative judg
 
 ## Part 3: System Design - Guidance Platform
 
+Part 3 assumes a production system: real SDLT rules and reliefs, with the Part 1 calculator productionised behind a tool interface. Use `part-3-system-design/system_design_v2.excalidraw` as the reference: black elements are the first-pass minimum bar, green elements are expected when drilling into an area, and the red Q0-Q16 probes in its right-hand panel each have a "Look for" answer.
+
 | Criterion                          | Evidence to look for                                                                                                                            | Assessment / notes |
 | ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------ |
 | End-to-end architecture            | Diagram clearly connects user interface, API, orchestration, calculator, retrieval, data stores, and response flow.                             |                    |

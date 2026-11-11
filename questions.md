@@ -19,6 +19,8 @@
 - How would you test that user-provided instructions cannot override the assistant's role or tool-use requirements?
 - Why might an LLM fail to answer a question correctly?
 - How does an agent decide on what tools to use given a prompt?
+- A user asks for the difference between two prices, but the prompt forbids the assistant's own arithmetic. How would you handle that?
+- How would you make the assistant cite which guidance it used?
 
 ## Part 3: System Design - Guidance Platform
 
@@ -31,6 +33,18 @@
 - How would you make the solution scale?
 - How would tool calling be implemented? And for what purposes?
 - How does RAG work, and why do we get a specific selection of documents used as an input to the LLM
+- What would you ask before you start designing?
+- How is load spread evenly across instances?
+- The government changes the bands tomorrow. What happens?
+- What is a simple way to improve retrieval speed and cost?
+- For the vector store, would you favour availability or consistency, and how?
+- Where is this system most likely to fail?
+- How do you know it gives correct answers in production?
+- What steps would you take to ensure sustainable use of AI?
+- How would you control cost per answer, and stop anonymous users running up the bill?
+- How do you make clear this isn't tax advice, and when should it hand off to HMRC or a person?
+- How would you choose a model, and safely upgrade it later?
+
 
 ## Cross-Part Follow-Ups
 

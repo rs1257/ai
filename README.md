@@ -11,6 +11,8 @@ The assessment is divided into three parts:
 3. **System Design - 30 minutes**
    - Followed by 10 minutes for questions and discussion
 
+Please share your **entire screen** for the whole assessment, not a single window or tab, so that both your browser and your code editor are visible.
+
 ---
 
 # Part 1: Technical Test - 30 minutes
@@ -148,9 +150,25 @@ Design a scalable, production-ready platform that helps users:
 
 As an output we expect an end-to-end architecture diagram produced with [**Excalidraw**](https://excalidraw.com/) that illustrates the complete solution.
 
-You may use **Google Gemini AI** in your browser to assist with research, ideation, and architecture design however, the final architecture diagram should be your own work.
+### Search and Gemini
 
-Use of any other AI tools is **not permitted** to ensure candidates are assessed fairly.
+You may search the web, including with **Google Gemini**, to research individual services and technologies. For example:
+
+- "Which AWS service can store and search vector embeddings?"
+- "Can an ECS Fargate service expose an HTTP API?"
+- "What is the difference between ECS on Fargate and ECS on EC2?"
+
+The design itself must be your own. Do not ask Gemini to design the platform, list every service it needs, or produce a diagram, flowchart or Mermaid code for it. For example, these are **not** allowed:
+
+- "Design the architecture for an AI Stamp Duty guidance platform."
+- "What AWS services do I need for an AI assistant with RAG and a calculator?"
+- "Draw an architecture diagram for this platform" or "Give me Mermaid code for this architecture."
+
+If Gemini includes a diagram or workflow in an answer to a research question, do not copy it into your design.
+
+You may use any cloud provider. You are assessed on your design and reasoning, not on a particular vendor.
+
+Use of any other AI tools is **not permitted**, to ensure candidates are assessed fairly. This part of the interview is proctored.
 
 ---
 
@@ -161,6 +179,8 @@ The platform must incorporate:
 - The **Stamp Duty Calculator** from Part 1 for all calculations.
 - A **Retrieval-Augmented Generation (RAG)** solution for guidance and question answering.
 - **Official government documentation** as the primary and authoritative source of truth.
+
+Assume the Part 1 calculator will be productionised with the real Stamp Duty rules (for example reliefs and surcharges). You are designing the platform around it, not the tax logic itself.
 
 ---
 

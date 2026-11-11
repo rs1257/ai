@@ -1,4 +1,4 @@
-from math import inf
+from math import inf, isfinite
 
 STAMP_DUTY_BANDS = (
     (125_000, 0.00),
@@ -8,8 +8,11 @@ STAMP_DUTY_BANDS = (
 
 
 def stamp_duty_calculator(property_price: float) -> float:
-    if not isinstance(property_price, (int, float)):
+    if isinstance(property_price, bool) or not isinstance(property_price, (int, float)):
         raise ValueError("property_price must be a number")
+
+    if not isfinite(property_price):
+        raise ValueError("property_price must be a finite number")
 
     if property_price < 0:
         raise ValueError("property_price must be a positive number")
