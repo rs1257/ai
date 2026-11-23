@@ -77,6 +77,11 @@ During the exercise:
 - Candidates should explain their thinking and approach while completing the task.
 - Produce the best solution possible given the time you have available.
 
+### Expectations by grade
+
+- **C2:** A clear solution using conditional statements for the tax bands can meet expectations if it calculates the tax correctly and includes some relevant tests. Candidates should recognise that the conditionals should be refactored as the rules grow.
+- **C3:** We expect a well-structured solution that iterates over the tax bands, with tests covering representative values, band boundaries and invalid inputs.
+
 ---
 
 ## Questions and Discussion - 10 minutes
@@ -99,7 +104,7 @@ Candidates should be prepared to:
 
 ### Objective
 
-- Create a **system prompt** for an AI assistant that helps users understand Stamp Duty regulations and calculations.
+- Create a **system prompt** for a public facing AI assistant that helps users understand Stamp Duty regulations and calculations.
 - Provide 3 example user prompts and the expected output.
 
 ---
@@ -149,6 +154,15 @@ Design a scalable, production-ready platform that helps users:
 - Receive answers based on trusted government guidance.
 
 As an output we expect an end-to-end architecture diagram produced with [**Excalidraw**](https://excalidraw.com/) that illustrates the complete solution.
+
+### Starting point by grade
+
+- **C2:** You will be given the starter diagram in `part-3-system-design/system_design_starter.excalidraw`. You may move, rename, delete or add components and connections.
+- **C3:** Start from a blank Excalidraw canvas and design the architecture from scratch; you will not be given the starter diagram.
+
+The requirements below apply to both grades.
+
+For **C3**, we expect candidates to identify suitable named services from a cloud provider and select appropriate model(s), explaining their choices and trade-offs. They may research individual services and models during the exercise; the architecture and design decisions must be their own.
 
 ### Search and Gemini
 
@@ -210,10 +224,3 @@ Candidates should be prepared to:
 - Discuss scalability, security, reliability and observability.
 - Discuss trade-offs and alternative design choices.
 - Explain how they would evolve the solution for production use.
-
-<!-- TODO
-- Create C3 scorecard where we expect them to give example service names from a hypervisor, selected models and why and they can google this.
-- Create a separate scorecard for C2s
-- Create a C2 system design boiler plate solution
-- tech test for C3 grade we expect good loop solution and tests.
-- tech test for C2 grade they can pass with if statements and some tests if they mention its not the best and should refactor it. -->
