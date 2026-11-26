@@ -157,7 +157,7 @@ As an output we expect an end-to-end architecture diagram produced with [**Excal
 
 ### Starting point by grade
 
-- **C2:** You will be given the starter diagram in `part-3-system-design/system_design_starter.excalidraw`. You may move, rename, delete or add components and connections.
+- **C2:** You will be given the starter diagram in `part-3-system-design/system_design_c2_starter.excalidraw`. You may move, rename, delete or add components and connections.
 - **C3:** Start from a blank Excalidraw canvas and design the architecture from scratch; you will not be given the starter diagram.
 
 The requirements below apply to both grades.
